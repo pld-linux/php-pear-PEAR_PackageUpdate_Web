@@ -5,7 +5,7 @@
 %define		_pearname	PEAR_PackageUpdate_Web
 
 Summary:	%{_pearname} - A Web front end for PEAR_PackageUpdate
-Summary(pl):	%{_pearname} - frontend www do PEAR_PackageUpdate
+Summary(pl):	%{_pearname} - frontend WWW do PEAR_PackageUpdate
 Name:		php-pear-%{_pearname}
 Version:	0.2.2
 Release:	1
@@ -32,9 +32,9 @@ PEAR_PackageUpdate_Web is a HTML web front end for PPU.
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-PEAR_PackageUpdate (PPU) zosta³ zaprojektowany aby u³atwiæ developerom
-do³±czanie funkcjonalno¶ci automatycznej aktualizacji innych pakietów
-oraz aplikacji PEAR.
+PEAR_PackageUpdate (PPU) zosta³ zaprojektowany aby u³atwiæ
+programistom do³±czanie funkcjonalno¶ci automatycznej aktualizacji
+innych pakietów oraz aplikacji PEAR.
 
 PEAR_PackageUpdate_Web to frontend www do PPU.
 
@@ -56,6 +56,8 @@ rm -rf $RPM_BUILD_ROOT
 %doc install.log docs/%{_pearname}/{examples/ppuWebExample1.php,examples/ppuWebExample2.php}
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/PEAR/PackageUpdate/Web.php
+%dir %{php_pear_dir}/data/PEAR_PackageUpdate_Web
+%dir %{php_pear_dir}/data/PEAR_PackageUpdate_Web/examples
 %{php_pear_dir}/data/PEAR_PackageUpdate_Web/examples/info.gif
 %{php_pear_dir}/data/PEAR_PackageUpdate_Web/examples/ppu.css
 %{php_pear_dir}/data/PEAR_PackageUpdate_Web/examples/warning.gif
