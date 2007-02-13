@@ -5,7 +5,7 @@
 %define		_pearname	PEAR_PackageUpdate_Web
 
 Summary:	%{_pearname} - A Web front end for PEAR_PackageUpdate
-Summary(pl.UTF-8):   %{_pearname} - frontend WWW do PEAR_PackageUpdate
+Summary(pl.UTF-8):	%{_pearname} - frontend WWW do PEAR_PackageUpdate
 Name:		php-pear-%{_pearname}
 Version:	0.2.2
 Release:	1
