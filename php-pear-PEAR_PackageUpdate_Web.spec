@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - A Web front end for PEAR_PackageUpdate
 Summary(pl.UTF-8):	%{_pearname} - frontend WWW do PEAR_PackageUpdate
 Name:		php-pear-%{_pearname}
-Version:	0.2.2
+Version:	0.4.0
 Release:	1
 License:	PHP License 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	340742815da2a9e1cc2a29ca453a2b5f
+# Source0-md5:	7dfa2d08700b1d48bfccbd14683d26aa
 URL:		http://pear.php.net/package/PEAR_PackageUpdate_Web/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -56,8 +56,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc install.log docs/%{_pearname}/{examples/ppuWebExample1.php,examples/ppuWebExample2.php}
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/PEAR/PackageUpdate/Web.php
-%dir %{php_pear_dir}/data/PEAR_PackageUpdate_Web
-%dir %{php_pear_dir}/data/PEAR_PackageUpdate_Web/examples
-%{php_pear_dir}/data/PEAR_PackageUpdate_Web/examples/info.gif
-%{php_pear_dir}/data/PEAR_PackageUpdate_Web/examples/ppu.css
-%{php_pear_dir}/data/PEAR_PackageUpdate_Web/examples/warning.gif
+%{php_pear_dir}/data/PEAR_PackageUpdate_Web
