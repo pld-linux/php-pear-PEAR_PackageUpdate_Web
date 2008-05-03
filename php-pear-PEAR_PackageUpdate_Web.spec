@@ -1,18 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		PEAR
 %define		_subclass	PackageUpdate_Web
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	PEAR_PackageUpdate_Web
 
 Summary:	%{_pearname} - A Web front end for PEAR_PackageUpdate
 Summary(pl.UTF-8):	%{_pearname} - frontend WWW do PEAR_PackageUpdate
 Name:		php-pear-%{_pearname}
-Version:	0.4.0
-Release:	2
+Version:	1.0.0
+Release:	1
 License:	PHP License 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	7dfa2d08700b1d48bfccbd14683d26aa
+# Source0-md5:	6b0c684d739eac6375ffdbbce1c692d8
 URL:		http://pear.php.net/package/PEAR_PackageUpdate_Web/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
