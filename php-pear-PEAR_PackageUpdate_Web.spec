@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - A Web front end for PEAR_PackageUpdate
 Summary(pl.UTF-8):	%{_pearname} - frontend WWW do PEAR_PackageUpdate
 Name:		php-pear-%{_pearname}
-Version:	1.0.0
+Version:	1.0.1
 Release:	1
 License:	PHP License 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	6b0c684d739eac6375ffdbbce1c692d8
+# Source0-md5:	5bf47f866a6497266fedf5e64879cfda
 URL:		http://pear.php.net/package/PEAR_PackageUpdate_Web/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
