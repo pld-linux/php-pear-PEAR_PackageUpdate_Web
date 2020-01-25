@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		stable
 %define		_pearname	PEAR_PackageUpdate_Web
 Summary:	%{_pearname} - A Web front end for PEAR_PackageUpdate
